@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,400;1,600&display=swap');
+:root{
+    --cor1: black;
+    --cor2: #f6f6f6;
+    --cor3: #22d4fd;
+    --cor-hover: #272727;
+    --font1: 'Krona One', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+
+.menu{
+    display: flex;
+    gap: 80px;
+}
+
+.link-menu{
+    font-family: var(--font2);
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+.apresentacao{
+    padding: 6% 15%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+strong{
+    color: var(--cor3);
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+h1{
+    text-align: justify;
+    font-family: var(--font1);
+    font-size: 36px;
+}
+
+p{
+    text-align: justify;
+    font-family: var(--font2);
+    font-size: 24px;
+}
+
+.ancora{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}   
+
+.subtitulo{
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.link{
+    /* background-color: #22d4fd; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: var(--cor2);
+    font-family: var(--font2);
+    font-weight: 600;
+    font-size: 24px;
+    width: 378px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid var(--cor3);
+    border-radius: 8px;
+    padding-top: 21.5px;
+    padding-bottom: 21.5px;
+}
+
+.link:hover{
+    background-color: var(--cor-hover);
+}
+
+.rodape{
+    background-color: var(--cor3);
+    color: var(--cor1);
+    padding: 24px;
+    text-align: center;
+}
+
+footer > p{
+    text-align: center;
+    font-family: var(--font2);
+    font-size: 24px;
+    font-weight: 400;
+}
