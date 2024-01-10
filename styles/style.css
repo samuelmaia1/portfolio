@@ -33,7 +33,7 @@ body{
 .link-menu{
     font-family: var(--font2);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor3);
     text-decoration: none;
 }
@@ -43,6 +43,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 strong{
@@ -50,7 +51,7 @@ strong{
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -59,13 +60,13 @@ strong{
 h1{
     text-align: justify;
     font-family: var(--font1);
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 p{
     text-align: justify;
     font-family: var(--font2);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .ancora{
@@ -79,7 +80,7 @@ p{
 .subtitulo{
     font-family: var(--font1);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .link{
@@ -90,7 +91,7 @@ p{
     color: var(--cor2);
     font-family: var(--font2);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     width: 378px;
     text-align: center;
     text-decoration: none;
@@ -104,6 +105,10 @@ p{
     background-color: var(--cor-hover);
 }
 
+.apresentacao__imagem{
+    width: 50%;
+}
+
 .rodape{
     background-color: var(--cor3);
     color: var(--cor1);
@@ -114,6 +119,25 @@ p{
 footer > p{
     text-align: center;
     font-family: var(--font2);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 1200px){
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
 }
