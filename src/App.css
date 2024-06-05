@@ -1,0 +1,8 @@
+.container-content{
+    display: flex;
+}
+
+main{
+    width: 100%;
+    margin: 0 5.1rem;
+}

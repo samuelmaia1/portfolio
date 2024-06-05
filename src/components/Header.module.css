@@ -1,0 +1,40 @@
+.cabecalho{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 5.5rem;
+    font-weight: 500;
+}
+
+.containerNome a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerNome h4{
+    font-weight: 500;
+}
+
+.Navbar{
+    display: flex;
+    gap: 3.5rem;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.containerNome a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+    transition: .5s;
+}
+
+.Navbar a:hover{
+    color: #8D4CF9;
+}
+
