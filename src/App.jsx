@@ -6,6 +6,7 @@ import { Apresentacao } from './components/Apresentacao'
 import { About } from './components/About'
 import { Contact } from './components/Contact'
 import { Skills } from './components/Skills'
+import {Projects} from './components/Projects'
 
 function App() {
   const [modo, setModo] = useState('dark')
@@ -33,16 +34,8 @@ function App() {
       </div> */}
       <About id="about" modo={modo}/>
       <Skills id="skills"/>
+      <Projects id="projects"/>
       <Contact id="contact"/>
-      <button onClick={mudaModo}>
-        Mudar modo
-      </button>
-      {
-        modo == 'dark'?
-        <p>Escuro</p>
-        :
-        <p>Claro</p>
-      }
     </>
   )
 }
