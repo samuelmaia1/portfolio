@@ -8,6 +8,17 @@ import { Contact } from './components/Contact'
 import { Skills } from './components/Skills'
 
 function App() {
+  const [modo, setModo] = useState('dark')
+
+  const mudaModo = () => {
+    if (modo == 'dark'){
+      setModo('ligth')
+    }
+    else{
+      setModo('dark')
+    }
+  }
+
   return (
     <>
       <Header/>
@@ -20,9 +31,18 @@ function App() {
           <Apresentacao/>
         </main>
       </div> */}
-      <About id="about"/>
+      <About id="about" modo={modo}/>
       <Skills id="skills"/>
       <Contact id="contact"/>
+      <button onClick={mudaModo}>
+        Mudar modo
+      </button>
+      {
+        modo == 'dark'?
+        <p>Escuro</p>
+        :
+        <p>Claro</p>
+      }
     </>
   )
 }

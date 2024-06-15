@@ -1,7 +1,7 @@
 import styles from './About.module.css'
 
 
-export function About({id}) {
+export function About({id, modo}) {
     return (
         <>
             <section className={styles.about} id={id}>
