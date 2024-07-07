@@ -1,8 +1,27 @@
-# React + Vite
+# Titulo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositório pessoal com React
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aqui você verá mais sobre mim, minha jornada, projetos e habilidades em programação. Seja muito bem-vindo!
+
+## Construção:
+- JavaScript;
+- React;
+- ChakraUI;
+
+## Motivação
+
+Compartilhar um pouco de mim e o valor que tenho a agregar com meu trabalho.
+
+## Instruções para execução:
+- Para ver o projeto diretamente publicado, basta clicar no link abaixo:
+    - [Portfólio](https://portfolio-six-pi-41.vercel.app/)
+- Para abrir o projeto via terminal, basta:
+    - Fazer o clone do projeto no Github;
+    - Abrir a pasta raíz no terminal integrado do Visual Studio Code ou algum terminal de sua preferência e digitar a seguinte linha de comando:
+    ```bash
+    npm run dev
+    ```
+    - Será disponiblizado um link, basta ir para este link que o projeto estará rodando na porta 5173 do localhost; 
