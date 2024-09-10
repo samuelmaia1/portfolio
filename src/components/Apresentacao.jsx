@@ -3,7 +3,7 @@ import profile from '../assets/icon-profile.png'
 import nodejs from '../assets/nodejs.png'
 import reactjs from '../assets/reactjs.png'
 import javascript from '../assets/javascript.png'
-import csharp from '../assets/csharp.png'
+import csharp from '../assets/java (2).png'
 
 
 export function Apresentacao(){
@@ -20,8 +20,8 @@ export function Apresentacao(){
                         </div>
                     </div>
 
-                    <p>Olá! Eu sou o Samuel, desenvolvedor de Software e estudande de Análise e Desenvolvimento de Sistemas.</p>
-                    <p>Bem vindo ao meu portfólio!</p>
+                    <p>Olá! Eu sou o Samuel, desenvolvedor de Software e estudande de Análise e Desenvolvimento de Sistemas.<br/>Bem vindo ao meu portfólio!</p>
+                    {/* <p>Bem vindo ao meu portfólio!</p> */}
 
                     <nav className={styles.navApr}>
                         <a href="#about">Sobre mim</a>

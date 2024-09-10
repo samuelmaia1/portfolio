@@ -1,19 +1,11 @@
 import styles from './Header.module.css'
+import { Aside } from './Aside'
 
 export function Header() {
     return (
         <>
             <header className={styles.cabecalho}>
-                {/* <div className={styles.containerNome}>
-                    <a href="#">
-                        <h4>
-                            &lt;SamuelMaia/&gt;
-                        </h4>
-                        <h4>
-                            Software developer
-                        </h4>
-                    </a>
-                </div> */}
+                <Aside/>
 
                 <nav className={styles.Navbar}>
                     <a href="#">Home</a>
@@ -22,6 +14,7 @@ export function Header() {
                     <a href="#projects">Projetos</a>
                     <a href="#contact">Contato</a>
                 </nav>
+                
             </header>
         </>
     )

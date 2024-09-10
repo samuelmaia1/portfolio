@@ -1,10 +1,10 @@
 .AsideBar{
-    position: fixed;
+    /* position: fixed; */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     gap: 3rem;
-    height: calc(100vh - 7rem);
-    margin: 0 5.1rem;
+    /* height: calc(100vh - 7rem); */
+    /* margin-left: 5.1rem; */
 }
 

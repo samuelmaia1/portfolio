@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Aside/>
+      {/* <Aside/> */}
       <Apresentacao/>
       {/* <div className='container-content'>
         

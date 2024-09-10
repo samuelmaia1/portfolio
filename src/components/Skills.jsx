@@ -2,7 +2,7 @@ import styles from './Skills.module.css'
 import nodejs from '../assets/nodejs.png'
 import reactjs from '../assets/reactjs.png'
 import javascript from '../assets/javascript.png'
-import csharp from '../assets/csharp.png'
+import csharp from '../assets/java (1).png'
 
 
 export function Skills({id}){
@@ -14,7 +14,6 @@ export function Skills({id}){
                 <div className={styles.containerCardSkill}>
                     <div className={styles.cardSkill}>
                         <h2 className={styles.skillsSubtitle}>
-                            <img src={javascript} alt="" />
                             JavaScript
                         </h2>
                         <p className={styles.skillsText}>
@@ -23,7 +22,6 @@ export function Skills({id}){
                     </div>
                     <div className={styles.cardSkill}>
                         <h2 className={styles.skillsSubtitle}>
-                            <img src={reactjs} alt="" />
                             ReactJs
                         </h2>
                         <p className={styles.skillsText}>
@@ -32,7 +30,6 @@ export function Skills({id}){
                     </div>
                     <div className={styles.cardSkill}>
                         <h2 className={styles.skillsSubtitle}>
-                            <img src={nodejs} alt="" />
                             NodeJs
                         </h2>
                         <p className={styles.skillsText}>
@@ -41,11 +38,10 @@ export function Skills({id}){
                     </div>
                     <div className={styles.cardSkill}>
                         <h2 className={styles.skillsSubtitle}>
-                            <img src={csharp} alt="" />
-                            C#
+                            Java
                         </h2>
                         <p className={styles.skillsText}>
-                            Uma das linguagens de programação mais usadas no desenvolvimento back-end, juntamente com o framework .NET, pode ser usada para web back-end, jogos e muito mais!
+                            Uma das linguagens de programação mais usadas no desenvolvimento back-end, juntamente com o framework Spring, pode ser usada para web back-end, desenvolvimento Android e muito mais!
                         </p>
                     </div>
                 </div>
