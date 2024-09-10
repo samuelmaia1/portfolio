@@ -13,14 +13,14 @@ export function Contact({id}){
                     <img src={email} alt="email" />
                     <span>smaia190500@gmail.com</span>
                 </p>
-                <p>
+                {/* <p>
                     <a href="" className={styles.contatoLink}>
                         <img src={whatsapp} alt="whatsapp" />
                         <span>Clique para enviar uma mensagem</span>
                     </a>
-                </p>
+                </p> */}
                 <p>
-                    <a href="" className={styles.contatoLink}>
+                    <a href="https://www.linkedin.com/in/samuel-maia-269955232/" className={styles.contatoLink}>
                         <img src={linkedinPersonalizado} alt="whatsapp" />
                         <span>Visite meu linkedin</span>
                     </a>
