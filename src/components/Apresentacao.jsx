@@ -3,7 +3,7 @@ import profile from '../assets/icon-profile.png'
 import nodejs from '../assets/nodejs.png'
 import reactjs from '../assets/reactjs.png'
 import javascript from '../assets/javascript.png'
-import csharp from '../assets/java (2).png'
+import csharp from '../assets/java.png'
 
 
 export function Apresentacao(){
